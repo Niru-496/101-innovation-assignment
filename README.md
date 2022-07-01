@@ -12,7 +12,7 @@ This assignment is given by 101- Innovative to make front-end component by using
 Install the dependencies and devDependencies and start the server.
 
 ```sh
-cd
+cd 101-innovation-assignment
 npm install
 npm start
 ```
@@ -23,4 +23,5 @@ npm start
 
 ## Live  Link
 ```sh
+https://101-innovation-assignment-lake.vercel.app/
 ```
