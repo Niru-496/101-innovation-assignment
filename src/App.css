@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
+
+.head-container{
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+    background-color: rgb(165, 205, 142);
+}
+.head-title{
+    margin-left: 15px;
+}
+.icons{
+    display: flex;
+    margin-top: 1.7%;
+    margin-right: 1%;
+}
+.Details_of_products{
+    width: 97%;
+    margin: auto;
+}
+.search{
+    margin-right: 3%;
+}
+.list-header-container{
+    display: flex;
+}
+.list-header-container > div{
+    width: 50%;
+    height: 22px;
+    border: 1px solid rgb(124, 155, 107);
+    text-align: center;
+}
+.right-side-title{
+    background-color: rgb(187, 238, 157);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.icon{
+    height: 50px;
+    width: 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.All_product-details{
+    display: flex;
+    margin-top: 13px;
+
+}
+.individual_product{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+
+}
+.individual_product:hover{
+    cursor: pointer;
+}
+
+  @media only screen and (min-width: 0px) and (max-width:376px){
+    .icons{
+        margin-top: 6%;
+    }
+    .All_product-details{
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 376px) and (max-width:768px){
+    .icons{
+        margin-top: 5%;
+    }
+     .All_product-details{
+        display: flex;
+    }
+}
+
+
+
+.head{
+    height: 130px;
+    width: 100%;
+    background-color: rgb(165, 205, 142);
+    display: flex;
+}
+
+.details{
+    width: 95%;
+    margin: auto;
+}
+
+.iconimgg{
+    height: 80px;
+    width: 80px;
+}
+
+.prod_name{
+    display: flex;
+    margin-top: 13px;
+}
+.prodalign{
+    margin-left: 10px;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    margin-top: 13px;
+    border-color: #000000;
   }
+
+@media only screen and (min-width: 0px) and (max-width:376px){
+    .prod_name{
+        display: flex;
+        margin-top: 13px;
+    }
+    .details{
+        font-size: 13px;
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media only screen and (min-width: 376px) and (max-width:768px){
+    .prod_name{
+        display: flex;
+        margin-top: 13px;
+    }
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+hr{
+    width: 50%;
+    border-color: black;
+    background-color: black;
 }
